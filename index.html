@@ -25,7 +25,13 @@
             Your browser does not support the video tag.
         </video>
         <pre id="ascii"></pre>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var video = document.getElementById('video');
+                video.volume = 0.1;
+            });
+        </script>
         <script src="script.js"></script>
-        </main> 
+    </main> 
 </body>
 </html>
